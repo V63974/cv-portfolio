@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom small tweaks */
+body { @apply bg-slate-900 text-slate-100; }
+.container { @apply max-w-5xl mx-auto px-6; }
+
+/* Hero tweaks */
+.hero-name { @apply text-5xl md:text-6xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-indigo-400 via-purple-400 to-pink-400; }
+.hero-sub { @apply text-lg text-slate-300 mt-2; }
+
+.card { @apply bg-slate-800/60 backdrop-blur-md border border-slate-700 rounded-2xl shadow-lg p-6; }
+
+/* Buttons */
+.btn-primary { @apply inline-block px-5 py-2 rounded-full font-semibold bg-gradient-to-r from-indigo-600 to-purple-600 text-white shadow-md hover:scale-105 transition; }
+.btn-outline { @apply inline-block px-5 py-2 rounded-full font-medium border border-slate-600 text-slate-200 hover:bg-slate-800/40 transition; }
+
+/* simple fade-in */
+.fade-up { opacity: 0; transform: translateY(12px); transition: all .6s cubic-bezier(.2,.9,.2,1); }
+.fade-up.show { opacity: 1; transform: none; }
