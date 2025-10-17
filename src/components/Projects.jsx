@@ -7,7 +7,7 @@ const projects = [
     title: "E-Commerce Platform",
     description:
       "A modern e-commerce website with shopping cart, product filtering, and checkout functionality.",
-    image: "/assets/ecommerce.jpg",
+    image: "/assets/ecommerce.png",
     tech: ["HTML", "CSS", "JavaScript"],
     codeLink: "#",
     demoLink: "#",
@@ -16,7 +16,7 @@ const projects = [
     title: "Weather Dashboard",
     description:
       "Real-time weather application with location search and 7-day forecast display.",
-    image: "/assets/weather.jpg",
+    image: "/assets/weather.png",
     tech: ["API Integration", "Responsive", "CSS"],
     codeLink: "#",
     demoLink: "#",
@@ -25,7 +25,7 @@ const projects = [
     title: "Portfolio Website",
     description:
       "Interactive portfolio with smooth animations and modern glassmorphism design.",
-    image: "/assets/portfolio.jpg",
+    image: "/assets/portfolio.png",
     tech: ["Modern Design", "Animations", "JavaScript"],
     codeLink: "#",
     demoLink: "#",
