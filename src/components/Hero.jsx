@@ -1,6 +1,8 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { FaLinkedin, FaEnvelope, FaGithub } from "react-icons/fa";
+import resume from '../assests/resume.pdf';
+import grid from '../assests/grid.svg';
 
 export default function Hero() {
   return (
@@ -8,7 +10,7 @@ export default function Hero() {
       {/* Background Grid Overlay */}
       <div className="absolute inset-0 opacity-20">
         <img
-          src="/assets/grid.svg"
+          src={grid}
           alt="grid background"
           className="w-full h-full object-cover"
         />
@@ -58,7 +60,7 @@ export default function Hero() {
           View Projects
         </a>
         <a
-          href="/resume.pdf"
+          href={resume}
           target="_blank"
           rel="noopener noreferrer"
           className="bg-gray-800 hover:bg-gray-700 text-white px-6 py-3 rounded-lg font-medium shadow-lg transition-all duration-300 flex items-center gap-2"

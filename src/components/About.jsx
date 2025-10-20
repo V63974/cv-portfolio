@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { FaRocket, FaLightbulb, FaPalette } from "react-icons/fa";
+import profile from '../assests/profile.jpg';
 
 export default function About() {
   return (
@@ -65,7 +66,7 @@ export default function About() {
               bg-gradient-to-r from-blue-500 to-purple-600 p-[4px] transition-all duration-150 ease-out"
             >
               <img
-                src="/assets/profile.jpg"
+                src={profile}
                 alt="Profile"
                 className="w-full h-full object-cover rounded-full"
               />

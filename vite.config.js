@@ -1,7 +1,8 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-export default defineConfig({
+// automatically set correct base for local vs GitHub Pages
+export default defineConfig(({ command }) => ({
   plugins: [react()],
-  base: '/', // 👈 this removes the extra path
-})
+  base:'/cv-portfolio/', // ✅ local uses "/", deploy uses "/cv-portfolio/"
+}))

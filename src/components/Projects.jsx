@@ -1,13 +1,16 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { FaCode, FaExternalLinkAlt } from "react-icons/fa";
+import ecommerce from '../assests/ecommerce.png';
+import portfolio  from '../assests/portfolio.png';
+import weather from '../assests/weather.png';
 
 const projects = [
   {
     title: "E-Commerce Platform",
     description:
       "A modern e-commerce website with shopping cart, product filtering, and checkout functionality.",
-    image: "/assets/ecommerce.png",
+    image: ecommerce,
     tech: ["HTML", "CSS", "JavaScript"],
     codeLink: "#",
     demoLink: "#",
@@ -16,7 +19,7 @@ const projects = [
     title: "Weather Dashboard",
     description:
       "Real-time weather application with location search and 7-day forecast display.",
-    image: "/assets/weather.png",
+    image: weather,
     tech: ["API Integration", "Responsive", "CSS"],
     codeLink: "#",
     demoLink: "#",
@@ -25,7 +28,7 @@ const projects = [
     title: "Portfolio Website",
     description:
       "Interactive portfolio with smooth animations and modern glassmorphism design.",
-    image: "/assets/portfolio.png",
+    image: portfolio,
     tech: ["Modern Design", "Animations", "JavaScript"],
     codeLink: "#",
     demoLink: "#",
