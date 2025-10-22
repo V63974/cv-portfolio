@@ -30,8 +30,8 @@ const projects = [
       "Interactive portfolio with smooth animations and modern glassmorphism design.",
     image: portfolio,
     tech: ["Modern Design", "Animations", "JavaScript"],
-    codeLink: "#",
-    demoLink: "#",
+    codeLink: "https://github.com/V63974/cv-portfolio",
+    demoLink: "https://v63974.github.io/cv-portfolio/",
   },
 ];
 
